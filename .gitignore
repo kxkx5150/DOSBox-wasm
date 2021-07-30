@@ -50,4 +50,4 @@ Makefile
 *~
 /include/version.h
 
-/images
+/images/
