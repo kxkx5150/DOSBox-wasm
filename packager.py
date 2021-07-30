@@ -16,8 +16,8 @@ def error(s):
     print(s, file=sys.stderr)
     sys.exit(1)
 
-OUTPUT_HTML = sys.argv[1] + '.html'
-OUTPUT_DATA = sys.argv[1] + '.data'
+OUTPUT_HTML = 'docs/' + sys.argv[1] + '.html'
+OUTPUT_DATA = 'docs/' + sys.argv[1] + '.data'
 
 if os.path.isfile(sys.argv[2]):
     ( BASE_DIR, PACKAGE_ARG ) = os.path.split(sys.argv[2])
