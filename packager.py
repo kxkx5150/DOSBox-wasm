@@ -40,17 +40,17 @@ else:
 
 def getfiletext(fn):
     try:
-        f = open(fn, 'r')
+        # f = open(fn, 'r')
         txt = f.read()
     except Exception as e:
         error('Error reading file: %s' % (str(e)))
     f.close
     return txt
 
-try:
-  exec(getfiletext(os.path.expanduser('~/.emscripten')))
-except Exception as e:
-  error('Error evaluating Emscripten configuration: %s' % (str(e)))
+# try:
+#   exec(getfiletext(os.path.expanduser('~/.emscripten')))
+# except Exception as e:
+#   error('Error evaluating Emscripten configuration: %s' % (str(e)))
 
 # Find folder in PATH environment variable which contains specified file
 def find_in_path(fn):
@@ -131,7 +131,7 @@ try:
 except Exception as e:
     error('Error opening %s for writing: %s' %( OUTPUT_HTML, (str(e)) ))
 
-with open('dosbox.html') as f:
+with open('docs/index.html') as f:
     have_injected = False
     for line in iter(f.readline, ''):
         if '</script>' in line and not have_injected:
