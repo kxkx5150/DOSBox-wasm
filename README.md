@@ -24,6 +24,8 @@ https://kxkx5150.github.io/DOSBox-wasm/
 Windows 95 emulated in the browser via DOSBox  
 https://archive.org/details/win95_in_dosbox  
 
+![cap](https://user-images.githubusercontent.com/10168979/127714131-4540d3c0-0830-4a7a-b937-6a3de029d756.PNG)
+
 1. download package.zip
 2. mkdir win95
 3. AUTOEXEC.BAT and drive-c.img into win95
