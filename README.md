@@ -21,6 +21,17 @@ Demo
 https://kxkx5150.github.io/DOSBox-wasm/
 
 <br><br><br><br>
+Windows 95 emulated in the browser via DOSBox  
+https://archive.org/details/win95_in_dosbox  
+
+1. download package.zip
+2. mkdir win95
+3. AUTOEXEC.BAT and drive-c.img into win95
+4. win95 into images/
+5. ./packager.py win95 images/win95 AUTOEXEC.BAT
+6. open http://localhost/DOSBox-wasm/docs/win95.html
+
+<br><br><br><br>
 
 DOSBox-wasm is based on em-dosbox  
 https://github.com/dreamlayers/em-dosbox
