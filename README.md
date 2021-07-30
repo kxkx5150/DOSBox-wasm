@@ -15,10 +15,12 @@ fastcomp-clang-e1.37.5-64bit
 3. make
 4. src (dosbox.html)
 
-<br><br>
+<br>
 
+Demo  
+https://kxkx5150.github.io/DOSBox-wasm/
 
-<br><br>
+<br><br><br><br>
 
 DOSBox-wasm is based on em-dosbox  
 https://github.com/dreamlayers/em-dosbox
